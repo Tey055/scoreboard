@@ -1,0 +1,62 @@
+@font-face {
+    font-family: Cursed Timer ULiL;
+    src: url("/CursedTimerUlil-Aznm.ttf") format('ttf');
+}
+
+body {
+    margin: 0;
+    height: 385px;
+    width: 575px;
+    text-align: center;
+}
+.container {
+    background-color: #1B244A;
+}
+
+#items {
+    display: flex;
+    justify-content: space-around;
+}
+
+.header {
+    margin-bottom: 0;
+    font-family: 'Verdana';
+    font-size: 40px;
+    font-weight: 700;
+    color: #EEEEEE;
+}
+
+.score {
+    margin-top: 21px;
+    margin-bottom: 0;
+    color: #F94F6D;
+    font-size: 90px;
+    font-weight: 400;
+    contain: content 100px;
+    padding: 60px 77px;
+    background-color: #080001;
+    border-radius: 5px;
+}
+
+p button{
+    font-family: Cursed Timer ULiL;
+    font-weight: 400;
+}
+
+button {
+    background-color: #1B244A;
+    color: #9AABD8;
+    font-size: 18px;
+    border: solid 2px #9AABD8;
+    border-radius: 5px;
+}
+
+.btn {
+    margin: 26px 10px 0 10px;
+    width: 45px;
+    height: 45px;
+}
+
+#new-game {
+    margin: 35px auto;
+}
